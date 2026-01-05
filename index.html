@@ -1,0 +1,55 @@
+*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 - Introduction to JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>HELLO GUYS</h1>
+        <p>This is a short interactive form to know your interested language.</p>
+    </header>
+
+    <!-- Dropdown -->
+    <section class="card">
+        <h2>LANGUAGES</h2>
+        <select id="languageSelect">
+            <option value="">-- Select Language --</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+        </select>
+        <p id="dropdownResult"></p>
+    </section>
+
+    <!-- Modal -->
+    <section class="card">
+        <h2>Modal Example</h2>
+        <button id="openModal">Open Modal</button>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h3>JavaScript Modal</h3>
+            <p>This modal is controlled using JavaScript.</p>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <section class="card">
+        <h2>Form Validation</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="email" id="email" placeholder="Enter Email">
+            <button type="submit">Submit</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
